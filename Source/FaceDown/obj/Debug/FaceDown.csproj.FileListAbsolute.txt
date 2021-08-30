@@ -1,0 +1,5 @@
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Face-Down\Assemblies\FaceDown.dll
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Face-Down\Source\FaceDown\obj\Debug\FaceDown.csproj.AssemblyReference.cache
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Face-Down\Source\FaceDown\obj\Debug\FaceDown.csproj.CoreCompileInputs.cache
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Face-Down\Source\FaceDown\obj\Debug\FaceDown.csproj.CopyComplete
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Face-Down\Source\FaceDown\obj\Debug\FaceDown.dll
