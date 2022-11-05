@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\Source\\FaceDown\\FaceDown.csproj": {}
+    "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\1.4\\Source\\FaceDown\\FaceDown.csproj": {}
   },
   "projects": {
-    "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\Source\\FaceDown\\FaceDown.csproj": {
+    "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\1.4\\Source\\FaceDown\\FaceDown.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\Source\\FaceDown\\FaceDown.csproj",
+        "projectUniqueName": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\1.4\\Source\\FaceDown\\FaceDown.csproj",
         "projectName": "FaceDown",
-        "projectPath": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\Source\\FaceDown\\FaceDown.csproj",
+        "projectPath": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\1.4\\Source\\FaceDown\\FaceDown.csproj",
         "packagesPath": "C:\\Users\\verni\\.nuget\\packages\\",
-        "outputPath": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\Source\\FaceDown\\obj\\",
+        "outputPath": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\1.4\\Source\\FaceDown\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

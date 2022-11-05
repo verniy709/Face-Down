@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceDown", "FaceDown.csproj", "{2E2C0788-1D25-43FF-9658-2062E9BD85FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E2C0788-1D25-43FF-9658-2062E9BD85FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2C0788-1D25-43FF-9658-2062E9BD85FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2C0788-1D25-43FF-9658-2062E9BD85FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2C0788-1D25-43FF-9658-2062E9BD85FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9433BBF8-74CC-4A7A-AA04-87832D3E74E5}
+	EndGlobalSection
+EndGlobal
