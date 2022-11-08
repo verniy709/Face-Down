@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8rRUFGcpPHCyp8p8WY8CenxJzVjHJga+KEGIlTWkUOxfzb94ufhuG2g1mtsqFvqcijE6bMJL6VyPSWV2EHzq5w==",
+  "dgSpecHash": "wM6eI0V7D+otfQItykdjrcTotLPV2SESbat7OnWeh8eC9QAI3fnB/+WOJqGfTLN/fdxZq3schjwX5ko0zEpF1Q==",
   "success": true,
-  "projectFilePath": "C:\\steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\1.4\\Source\\FaceDown\\FaceDown.csproj",
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Face-Down\\1.4\\Source\\FaceDown\\FaceDown.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\verni\\.nuget\\packages\\krafs.publicizer\\1.0.0\\krafs.publicizer.1.0.0.nupkg.sha512",
-    "C:\\Users\\verni\\.nuget\\packages\\krafs.rimworld.ref\\1.3.3104-beta\\krafs.rimworld.ref.1.3.3104-beta.nupkg.sha512",
-    "C:\\Users\\verni\\.nuget\\packages\\lib.harmony\\2.1.1\\lib.harmony.2.1.1.nupkg.sha512"
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.publicizer\\2.0.1\\krafs.publicizer.2.0.1.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3537\\krafs.rimworld.ref.1.4.3537.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
   ],
   "logs": []
 }

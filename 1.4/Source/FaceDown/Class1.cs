@@ -26,24 +26,24 @@ namespace FaceDown
     {
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator ilg)
         {
-            var get_North = AccessTools.Method(typeof(Rot4), "get_North");
-            var get_South = AccessTools.Method(typeof(Rot4), "get_South");
-            var get_West = AccessTools.Method(typeof(Rot4), "get_West");
+            var get_North = AccessTools.Field(typeof(Rot4), "North");
+            var get_South = AccessTools.Field(typeof(Rot4), "South");
+            var get_West = AccessTools.Field(typeof(Rot4), "West");
             var codes = instructions.ToList();
             bool firstPatch = false;
             bool secondPatch = false;
             for (var i = 0; i < codes.Count; i++)
             {
                 var instr = codes[i];
-                if (!firstPatch && i > 2 && codes[i - 1].opcode == OpCodes.Br_S && codes[i].Calls(get_South))
+                if (!firstPatch && i > 2 && codes[i - 1].opcode == OpCodes.Br_S && codes[i].LoadsField(get_South))
                 {
                     firstPatch = true;
-                    yield return new CodeInstruction(OpCodes.Call, get_North).MoveLabelsFrom(codes[i]);
+                    yield return new CodeInstruction(OpCodes.Ldsfld, get_North).MoveLabelsFrom(codes[i]);
                 }
-                else if (firstPatch && !secondPatch && codes[i - 7].opcode == OpCodes.Br_S && codes[i].Calls(get_West))
+                else if (firstPatch && !secondPatch && codes[i - 7].opcode == OpCodes.Br_S && codes[i].LoadsField(get_West))
                 {
                     secondPatch = true;
-                    yield return new CodeInstruction(OpCodes.Call, get_North).MoveLabelsFrom(codes[i]);
+                    yield return new CodeInstruction(OpCodes.Ldsfld, get_North).MoveLabelsFrom(codes[i]);
                 }
                 else
                 {
